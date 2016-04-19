@@ -1,0 +1,5 @@
+
+module mysqlclient  {
+    header "include/mysqlclient.h"
+    export *
+}
