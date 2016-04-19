@@ -1,0 +1,16 @@
+git:
+ - bundleName : "Perfect(.)*"
+   gitUrl : "git@github.com:ejohnsonw/PerfectTodoList.git"
+   subdir : "PerfectBackend"
+   branch : "Generatron"
+ - bundleName : "SwiftRestClient(.)*"
+   gitUrl : "git@github.com:ejohnsonw/PerfectTodoList.git"
+   branch : "Generatron"
+datasources:
+ - type: "mysql"
+   schema: "PerfectTodoList"
+   user: "todouser"
+   password: "password123123"
+   host: "localhost"
+   name: "todomyql"
+   port: 3306

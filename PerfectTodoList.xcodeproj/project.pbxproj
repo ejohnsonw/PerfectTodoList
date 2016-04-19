@@ -15,6 +15,7 @@
 		CF194E141CC6DA6C001544CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF194E121CC6DA6C001544CD /* LaunchScreen.storyboard */; };
 		CF194E1F1CC6DA6C001544CD /* PerfectTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E1E1CC6DA6C001544CD /* PerfectTodoListTests.swift */; };
 		CF194E2A1CC6DA6C001544CD /* PerfectTodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E291CC6DA6C001544CD /* PerfectTodoListUITests.swift */; };
+		CF194E391CC6DDD0001544CD /* generatron.yaml in Resources */ = {isa = PBXBuildFile; fileRef = CF194E381CC6DDD0001544CD /* generatron.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF194E251CC6DA6C001544CD /* PerfectTodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectTodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF194E291CC6DA6C001544CD /* PerfectTodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectTodoListUITests.swift; sourceTree = "<group>"; };
 		CF194E2B1CC6DA6C001544CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF194E381CC6DDD0001544CD /* generatron.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generatron.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CF194DFA1CC6DA6A001544CD = {
 			isa = PBXGroup;
 			children = (
+				CF194E371CC6DDBC001544CD /* Generatron */,
 				CF194E051CC6DA6C001544CD /* PerfectTodoList */,
 				CF194E1D1CC6DA6C001544CD /* PerfectTodoListTests */,
 				CF194E281CC6DA6C001544CD /* PerfectTodoListUITests */,
@@ -126,6 +129,14 @@
 				CF194E2B1CC6DA6C001544CD /* Info.plist */,
 			);
 			path = PerfectTodoListUITests;
+			sourceTree = "<group>";
+		};
+		CF194E371CC6DDBC001544CD /* Generatron */ = {
+			isa = PBXGroup;
+			children = (
+				CF194E381CC6DDD0001544CD /* generatron.yaml */,
+			);
+			name = Generatron;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF194E141CC6DA6C001544CD /* LaunchScreen.storyboard in Resources */,
+				CF194E391CC6DDD0001544CD /* generatron.yaml in Resources */,
 				CF194E111CC6DA6C001544CD /* Assets.xcassets in Resources */,
 				CF194E0C1CC6DA6C001544CD /* Main.storyboard in Resources */,
 			);
