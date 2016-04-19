@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF194E071CC6DA6C001544CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E061CC6DA6C001544CD /* AppDelegate.swift */; };
+		CF194E091CC6DA6C001544CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E081CC6DA6C001544CD /* ViewController.swift */; };
+		CF194E0C1CC6DA6C001544CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF194E0A1CC6DA6C001544CD /* Main.storyboard */; };
+		CF194E0F1CC6DA6C001544CD /* PerfectTodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF194E0D1CC6DA6C001544CD /* PerfectTodoList.xcdatamodeld */; };
+		CF194E111CC6DA6C001544CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF194E101CC6DA6C001544CD /* Assets.xcassets */; };
+		CF194E141CC6DA6C001544CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF194E121CC6DA6C001544CD /* LaunchScreen.storyboard */; };
+		CF194E1F1CC6DA6C001544CD /* PerfectTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E1E1CC6DA6C001544CD /* PerfectTodoListTests.swift */; };
+		CF194E2A1CC6DA6C001544CD /* PerfectTodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF194E291CC6DA6C001544CD /* PerfectTodoListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF194E1B1CC6DA6C001544CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF194DFB1CC6DA6A001544CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF194E021CC6DA6A001544CD;
+			remoteInfo = PerfectTodoList;
+		};
+		CF194E261CC6DA6C001544CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF194DFB1CC6DA6A001544CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF194E021CC6DA6A001544CD;
+			remoteInfo = PerfectTodoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF194E031CC6DA6A001544CD /* PerfectTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF194E061CC6DA6C001544CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF194E081CC6DA6C001544CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF194E0B1CC6DA6C001544CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF194E0E1CC6DA6C001544CD /* PerfectTodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerfectTodoList.xcdatamodel; sourceTree = "<group>"; };
+		CF194E101CC6DA6C001544CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF194E131CC6DA6C001544CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF194E151CC6DA6C001544CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF194E1A1CC6DA6C001544CD /* PerfectTodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectTodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF194E1E1CC6DA6C001544CD /* PerfectTodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectTodoListTests.swift; sourceTree = "<group>"; };
+		CF194E201CC6DA6C001544CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF194E251CC6DA6C001544CD /* PerfectTodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectTodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF194E291CC6DA6C001544CD /* PerfectTodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectTodoListUITests.swift; sourceTree = "<group>"; };
+		CF194E2B1CC6DA6C001544CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF194E001CC6DA6A001544CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E171CC6DA6C001544CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E221CC6DA6C001544CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF194DFA1CC6DA6A001544CD = {
+			isa = PBXGroup;
+			children = (
+				CF194E051CC6DA6C001544CD /* PerfectTodoList */,
+				CF194E1D1CC6DA6C001544CD /* PerfectTodoListTests */,
+				CF194E281CC6DA6C001544CD /* PerfectTodoListUITests */,
+				CF194E041CC6DA6A001544CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF194E041CC6DA6A001544CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF194E031CC6DA6A001544CD /* PerfectTodoList.app */,
+				CF194E1A1CC6DA6C001544CD /* PerfectTodoListTests.xctest */,
+				CF194E251CC6DA6C001544CD /* PerfectTodoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF194E051CC6DA6C001544CD /* PerfectTodoList */ = {
+			isa = PBXGroup;
+			children = (
+				CF194E061CC6DA6C001544CD /* AppDelegate.swift */,
+				CF194E081CC6DA6C001544CD /* ViewController.swift */,
+				CF194E0A1CC6DA6C001544CD /* Main.storyboard */,
+				CF194E101CC6DA6C001544CD /* Assets.xcassets */,
+				CF194E121CC6DA6C001544CD /* LaunchScreen.storyboard */,
+				CF194E151CC6DA6C001544CD /* Info.plist */,
+				CF194E0D1CC6DA6C001544CD /* PerfectTodoList.xcdatamodeld */,
+			);
+			path = PerfectTodoList;
+			sourceTree = "<group>";
+		};
+		CF194E1D1CC6DA6C001544CD /* PerfectTodoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF194E1E1CC6DA6C001544CD /* PerfectTodoListTests.swift */,
+				CF194E201CC6DA6C001544CD /* Info.plist */,
+			);
+			path = PerfectTodoListTests;
+			sourceTree = "<group>";
+		};
+		CF194E281CC6DA6C001544CD /* PerfectTodoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF194E291CC6DA6C001544CD /* PerfectTodoListUITests.swift */,
+				CF194E2B1CC6DA6C001544CD /* Info.plist */,
+			);
+			path = PerfectTodoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF194E021CC6DA6A001544CD /* PerfectTodoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF194E2E1CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoList" */;
+			buildPhases = (
+				CF194DFF1CC6DA6A001544CD /* Sources */,
+				CF194E001CC6DA6A001544CD /* Frameworks */,
+				CF194E011CC6DA6A001544CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectTodoList;
+			productName = PerfectTodoList;
+			productReference = CF194E031CC6DA6A001544CD /* PerfectTodoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF194E191CC6DA6C001544CD /* PerfectTodoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF194E311CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoListTests" */;
+			buildPhases = (
+				CF194E161CC6DA6C001544CD /* Sources */,
+				CF194E171CC6DA6C001544CD /* Frameworks */,
+				CF194E181CC6DA6C001544CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF194E1C1CC6DA6C001544CD /* PBXTargetDependency */,
+			);
+			name = PerfectTodoListTests;
+			productName = PerfectTodoListTests;
+			productReference = CF194E1A1CC6DA6C001544CD /* PerfectTodoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF194E241CC6DA6C001544CD /* PerfectTodoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF194E341CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoListUITests" */;
+			buildPhases = (
+				CF194E211CC6DA6C001544CD /* Sources */,
+				CF194E221CC6DA6C001544CD /* Frameworks */,
+				CF194E231CC6DA6C001544CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF194E271CC6DA6C001544CD /* PBXTargetDependency */,
+			);
+			name = PerfectTodoListUITests;
+			productName = PerfectTodoListUITests;
+			productReference = CF194E251CC6DA6C001544CD /* PerfectTodoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF194DFB1CC6DA6A001544CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NgeosOne;
+				TargetAttributes = {
+					CF194E021CC6DA6A001544CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CF194E191CC6DA6C001544CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF194E021CC6DA6A001544CD;
+					};
+					CF194E241CC6DA6C001544CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF194E021CC6DA6A001544CD;
+					};
+				};
+			};
+			buildConfigurationList = CF194DFE1CC6DA6A001544CD /* Build configuration list for PBXProject "PerfectTodoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF194DFA1CC6DA6A001544CD;
+			productRefGroup = CF194E041CC6DA6A001544CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF194E021CC6DA6A001544CD /* PerfectTodoList */,
+				CF194E191CC6DA6C001544CD /* PerfectTodoListTests */,
+				CF194E241CC6DA6C001544CD /* PerfectTodoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF194E011CC6DA6A001544CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF194E141CC6DA6C001544CD /* LaunchScreen.storyboard in Resources */,
+				CF194E111CC6DA6C001544CD /* Assets.xcassets in Resources */,
+				CF194E0C1CC6DA6C001544CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E181CC6DA6C001544CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E231CC6DA6C001544CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF194DFF1CC6DA6A001544CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF194E091CC6DA6C001544CD /* ViewController.swift in Sources */,
+				CF194E0F1CC6DA6C001544CD /* PerfectTodoList.xcdatamodeld in Sources */,
+				CF194E071CC6DA6C001544CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E161CC6DA6C001544CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF194E1F1CC6DA6C001544CD /* PerfectTodoListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF194E211CC6DA6C001544CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF194E2A1CC6DA6C001544CD /* PerfectTodoListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF194E1C1CC6DA6C001544CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF194E021CC6DA6A001544CD /* PerfectTodoList */;
+			targetProxy = CF194E1B1CC6DA6C001544CD /* PBXContainerItemProxy */;
+		};
+		CF194E271CC6DA6C001544CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF194E021CC6DA6A001544CD /* PerfectTodoList */;
+			targetProxy = CF194E261CC6DA6C001544CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF194E0A1CC6DA6C001544CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF194E0B1CC6DA6C001544CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF194E121CC6DA6C001544CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF194E131CC6DA6C001544CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF194E2C1CC6DA6C001544CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF194E2D1CC6DA6C001544CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF194E2F1CC6DA6C001544CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfectTodoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF194E301CC6DA6C001544CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfectTodoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF194E321CC6DA6C001544CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectTodoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectTodoList.app/PerfectTodoList";
+			};
+			name = Debug;
+		};
+		CF194E331CC6DA6C001544CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectTodoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectTodoList.app/PerfectTodoList";
+			};
+			name = Release;
+		};
+		CF194E351CC6DA6C001544CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectTodoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectTodoList;
+			};
+			name = Debug;
+		};
+		CF194E361CC6DA6C001544CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectTodoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngeosone.PerfectTodoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectTodoList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF194DFE1CC6DA6A001544CD /* Build configuration list for PBXProject "PerfectTodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF194E2C1CC6DA6C001544CD /* Debug */,
+				CF194E2D1CC6DA6C001544CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF194E2E1CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF194E2F1CC6DA6C001544CD /* Debug */,
+				CF194E301CC6DA6C001544CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF194E311CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF194E321CC6DA6C001544CD /* Debug */,
+				CF194E331CC6DA6C001544CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF194E341CC6DA6C001544CD /* Build configuration list for PBXNativeTarget "PerfectTodoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF194E351CC6DA6C001544CD /* Debug */,
+				CF194E361CC6DA6C001544CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF194E0D1CC6DA6C001544CD /* PerfectTodoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF194E0E1CC6DA6C001544CD /* PerfectTodoList.xcdatamodel */,
+			);
+			currentVersion = CF194E0E1CC6DA6C001544CD /* PerfectTodoList.xcdatamodel */;
+			path = PerfectTodoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF194DFB1CC6DA6A001544CD /* Project object */;
+}
