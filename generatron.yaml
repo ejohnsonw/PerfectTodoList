@@ -1,10 +1,10 @@
 git:
  - bundleName : "Perfect(.)*"
-   gitUrl : "git@github.com:ejohnsonw/PerfectTodoList.git"
+   gitUrl : "https://github.com/ejohnsonw/PerfectTodoList.git"
    subdir : "PerfectBackend"
    branch : "Generatron"
  - bundleName : "SwiftRestClient(.)*"
-   gitUrl : "git@github.com:ejohnsonw/PerfectTodoList.git"
+   gitUrl : "https://github.com/ejohnsonw/PerfectTodoList.git"
    branch : "Generatron"
 datasources:
  - type: "mysql"
