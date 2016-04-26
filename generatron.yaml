@@ -1,7 +1,6 @@
 git:
  - bundleName : "Perfect(.)*"
-   gitUrl : "https://github.com/ejohnsonw/PerfectTodoList.git"
-   subdir : "PerfectBackend"
+   gitUrl : "https://github.com/ejohnsonw/PerfectTodoListBackend.git"
    branch : "Generatron"
  - bundleName : "SwiftRestClient(.)*"
    gitUrl : "https://github.com/ejohnsonw/PerfectTodoList.git"
