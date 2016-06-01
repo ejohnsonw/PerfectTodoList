@@ -1,4 +1,4 @@
-git:
+bundles:
  - bundleName : "Perfect(.)*"
    gitUrl : "git@github.com:ejohnsonw/TodoListServerSide.git"
    branch : "Perfect"
